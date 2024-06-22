@@ -1,0 +1,112 @@
+*{
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+  font-size: 16px;
+}
+
+@font-face {
+  font-family: extrabold;
+  src: url(fonts/Figtree-ExtraBold.ttf);
+}
+
+@font-face {
+  font-family: italic;
+  src: url(fonts/Figtree-Italic-VariableFont_wght.ttf);
+}
+
+@font-face {
+  font-family: semibold;
+  src: url(fonts/Figtree-SemiBold.ttf);
+}
+
+@font-face {
+  font-family: variable;
+  src: url(fonts/Figtree-VariableFont_wght.ttf);
+}
+
+.container{
+  background-color: hsl(47, 88%, 63%);
+  background-position: center;
+  width: 100%;
+  padding: 40px;
+  height: 100vh;
+}
+
+.card{
+  background-color: hsl(0, 0%, 100%);
+  border: 2px solid hsl(0, 0%, 7%);
+  border-radius: 25px;
+  box-shadow: 15px 15px 10px 0px hsl(0, 0%, 7%);
+  align-items: center;
+}
+
+.wrapper{
+  padding: 20px;
+}
+
+.img img{
+  align-items: center;
+  border-radius: 10px;
+  width: 100%;
+}
+
+.img{
+  text-align: center;
+}
+
+.yell{
+  font-family: extrabold;
+  margin-top: 20px;
+  font-family: extrabold;
+  background-color: hsl(47, 88%, 63%);
+  padding: 5px 8px;
+  display: inline-flex;
+  text-transform: capitalize;
+  border-radius: 5px;
+}
+
+.dec{
+  margin-top: 15px;
+  text-transform: capitalize;
+  font-family: semibold;
+}
+
+h1{
+  font-family: extrabold;
+  margin-top: 15px;
+}
+
+.text{
+  font-family: variable;
+  margin-top: 15px;
+  color: hsl(0, 0%, 50%);
+}
+
+.greg{
+  margin-top: 15px;
+  display: flex;
+  text-transform: capitalize;
+  font-family: extrabold;
+}
+
+.name{
+  margin-top: 18px;
+  margin-left: 8px;
+
+}
+
+@media screen and (min-width:720px){
+  .container{
+    background-color: hsl(47, 88%, 63%);
+    background-position: center;
+    width: 100%;
+  }
+
+  .card{
+    max-width: 400px;
+    align-items: center;
+    display: flex;
+    justify-content: center;
+  }
+}
